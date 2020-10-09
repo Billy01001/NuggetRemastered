@@ -3,12 +3,48 @@ body {
   text-align: left;
   background-color: white;
   margin: 2%;
-}
-
-h1 {
-  color: black
+  color: black;
 }
 
 a:hover {
   color: pink
+}
+
+nav {
+	padding: 10px;
+	background-color: #eee;
+	display: inline;
+}
+
+footer {
+	background-color: white;
+	text-align: left;
+}
+
+.wip {
+	visibility: hidden;
+}
+
+.article-parent {
+	margin: 0;
+	padding: .3rem;
+	background-color: #eee;
+	font-family: "Roboto";
+}
+
+.article-parent > h1
+.article-child {
+	margin: .5rem;
+	padding: .3rem;
+	font-size: 1.2rem;
+}
+
+.article-child {
+	 background: right/contain content-box border-box no-repeat white;
+}
+
+.article-child > h2,
+.article-child > p {
+    margin: .2rem;
+    font-size: 1rem;
 }
